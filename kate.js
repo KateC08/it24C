@@ -39,3 +39,16 @@ for(i = 0; i <= num; i++) {
     console.log(Odd_Even(i));
 }
 console.log("~~~~~~~~~~~~~~~~~");
+
+function Palindrome_or_Not(word) {
+    
+    let lowerCaseName = word.toLowerCase();
+    let reversedName = lowerCaseName.split("").reverse().join("");
+    //COnditional Statements
+    if (lowerCaseName === reversedName) {
+        return "'"+ word + "'" + " is a Palindrome";
+    } else {
+        return "'" + word + "'" + " is not a Palindrome";
+    }
+}
+console.log(Palindrome_or_Not(k_name));
