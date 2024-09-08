@@ -21,4 +21,21 @@ for(i = 0; i <= num; i++) {
 }
 console.log("~~~~~~~~~~~~~~~~~");
 
+function Odd_Even(num) {
+    
+    //Conditional Statements
+    if(num >= 0 && num <= 5) {
+      switch(num % 2) {
+        case 0:
+            return num + " is an Even Number";
+        default:
+            return num + " is an Odd Number";
+      }
+    }
 
+} 
+//loops
+for(i = 0; i <= num; i++) {
+    console.log(Odd_Even(i));
+}
+console.log("~~~~~~~~~~~~~~~~~");
