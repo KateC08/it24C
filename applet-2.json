@@ -23,5 +23,10 @@
         "latitude": 8.360219,
         "longitude": 124.867465,
         "message": "Student Centered New Building"
+    },
+    {
+        "latitude": 8.360118,
+        "longitude": 124.868904,
+        "message": "Covered court"
     }
 ]
