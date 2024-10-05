@@ -28,5 +28,10 @@
         "latitude": 8.360118,
         "longitude": 124.868904,
         "message": "Covered court"
+    },
+    {
+        "latitude": 8.360123,
+        "longitude": 124.869306,
+        "message": "AVR"
     }
 ]
