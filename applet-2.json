@@ -33,5 +33,10 @@
         "latitude": 8.360123,
         "longitude": 124.869306,
         "message": "AVR"
+    },
+    {
+        "latitude": 8.359141,
+        "longitude": 124.868581,
+        "message": "BSBA Building"
     }
 ]
