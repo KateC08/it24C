@@ -33,6 +33,15 @@ class AppletGallery {
         ).join('');
     }
 
+    bindSearchEvent() {
+        const appletSearchBar = document.getElementById('appletSearchBar'); 
+
+        appletSearchBar.addEventListener('input', () => {
+            this.filterApplet(appletSearchBar.value);
+        });
+
+    }
+
     
     
 }
