@@ -4,5 +4,11 @@
    "Description": "This application contains the basic implementation of DOM events.",
    "file": "applet-1.html",
    "Image": "https://cdn.pixabay.com/photo/2022/05/22/15/22/binary-code-7213641_1280.jpg"
-  }
+  },
+  {
+    "Applet_No": "Applet 2 - Leaflet Map",
+    "Description": "This application contains the basic web map.",
+    "file": "applet-2.html",
+    "Image": "https://th.bing.com/th/id/OIP.a8TmDct42EqL_BiXcRSHzwAAAA?w=474&h=266&rs=1&pid=ImgDetMain"
+   }
 ]
