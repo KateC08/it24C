@@ -28,7 +28,7 @@ class AppletGallery {
                <img src = "${applet.Image}" class="card-img-top image" alt="${applet.Applet_No}">
                     <h5> ${applet.Applet_No} </h5>
                     <p> ${applet.Description}</p>
-                    <a href = "${applet.file}" class = "btn btn-primary">Go to Applet </a>  
+                    <a href = "${applet.file}" class = "btn btn-primary">Go to Applet </a>
             </div>`
         ).join('');
     }
