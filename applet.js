@@ -42,7 +42,13 @@ class AppletGallery {
 
     }
 
-    
+    filterApplet(query) {
+        const filteredapplet = this.appletgallery.filter(applet => {
+            return applet.Applet_No.toLowerCase().includes(query.toLowerCase())
+        });
+
+        this.renderAppletGallery(filteredapplet);
+    }
     
 }
 
