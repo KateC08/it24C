@@ -66,6 +66,9 @@ class TodoList {
         this.editingIndex = -1;
         this.addButton.textContent = 'Add';
     }
-}    
+} 
+
+class TimestampedTodoList extends TodoList {
+}
 
    
